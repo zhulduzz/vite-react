@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { usePostStore } from '../store/posts'
+import { usePostStore } from '../stores/posts'
 import PostItem from './PostItem.vue'
 import PostForm from './PostForm.vue'
 

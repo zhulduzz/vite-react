@@ -8,6 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import { useItemStore } from '../store/items'
+import { useItemStore } from '../stores/items'
 const store = useItemStore()
 </script>

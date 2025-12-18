@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { usePostStore } from '../store/posts'
+import { usePostStore } from '../stores/posts'
 
 const store = usePostStore()
 const title = ref('')

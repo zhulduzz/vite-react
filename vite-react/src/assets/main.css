@@ -1,0 +1,89 @@
+/* Общие стили для всего приложения */
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #fffafc; /* нежно-розово-белый фон */
+  color: #333; /* мягкий тёмно-серый текст */
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили ссылок */
+a {
+  color: #ff6fb5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #ff82c9;
+}
+
+/* Заголовки */
+h1, h2, h3, h4 {
+  color: #ff6fb5;
+  font-weight: 600;
+}
+
+/* Кнопки */
+button {
+  background-color: #ffe6f2;
+  border: 1px solid #ffb6d5;
+  border-radius: 12px;
+  color: #ff4fa3;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #ffd9ed;
+  transform: translateY(-2px);
+}
+
+/* Карточки / блоки */
+.card {
+  background-color: #fff0f8;
+  border: 1px solid #ffd1e8;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 4px 12px rgba(255, 182, 212, 0.2);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Формы */
+input, textarea, select {
+  border: 1px solid #ffcce6;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #ff99cc;
+  box-shadow: 0 0 8px rgba(255, 153, 204, 0.3);
+}
+
+/* Комментарии и список постов */
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background-color: #fff0f8;
+  border: 1px solid #ffd1e8;
+  border-radius: 12px;
+  margin: 6px 0;
+  padding: 10px;
+}
+
+/* Плавные анимации */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}

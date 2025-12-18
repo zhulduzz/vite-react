@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useItemStore } from '../store/items'
+import { useItemStore } from '../stores/items'
 
 const name = ref('')
 const error = ref('')
